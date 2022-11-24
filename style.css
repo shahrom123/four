@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+
+.navbar{
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(./images/main-screen__bgc\ \(1\).png)    
+}
+.center{
+    width: 60%;
+    margin: auto;
+}
+.mainnavbar{
+    display: flex;
+    align-items: center;
+    margin: 0px 100px;
+    
+}
+.iconavatar{
+    width: 15%;
+}
+.home{
+    width: 70%;
+}
+.home ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.home ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+
+}
+.home ul li{
+   list-style: none;
+   border: 1px solid black;
+   padding: 5px 10px;
+   border:none;
+   /* background-color: lightgray; */
+   border-radius: 10px;
+}
+.home ul li:hover{
+    background-color: rgb(69, 61, 61);
+
+  
+}
+.bat1{
+    width: 15%;
+    padding: 10px 10px;
+}
+.bat1 button{
+    padding: 8px 10px;
+    border-radius: 15%;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgb(234, 16, 16);
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px ;
+    background-color: black;
+    background-color:blueviolet;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.bat1 button:hover{
+   background-color: rgb(103, 92, 92);
+
+}
+/* minut  */
+.seconds{
+    margin-top: 100px;
+}
+.minut h1{
+    color: white;
+    font-size: 50px;
+}
+.minut p{
+    color: white;
+    font-size:100px
+}
+
+.nomdak{
+    display: flex;
+    color: white;
+    gap: 50px;
+}
+.nomdak h1{
+    font-size: 60px;
+    margin-top: 100px;  
+}
+.nomdak p{
+    font-size: 20px; 
+}
+
+.kurs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+    margin-top: 150px;
+}
+hr{
+    border: 1px solid rgb(176, 176, 176);
+    /* background:linear-gradient(90deg, red  50% , white 50% ); */
+   
+}
+.somoni{
+    border: 1px solid rgb(234, 16, 16);
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px ;
+    background-color: black;
+}
+.zakaz{
+    border: 1px solid rgb(234, 16, 16);
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px ;
+    background-color: black;
+    background-color:blueviolet;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.zakaz:hover{
+    background-color: lightslategray;
+}
+/* left-right */
+.left-right{
+  
+    background-color: rgb(24, 24, 10);
+    color: white;
+}
+.left{
+    width: 50%;
+}
+.left img{
+    width: 100%;
+}
+.right{
+    width: 50%;
+    margin-left: 50px;
+
+}
+.right h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+.right p{
+    font-size: 20px;
+  
+}
+.left{
+    margin-top: 100px;
+}
+.right{
+    margin-top: 100px;
+}
+.main{
+    display: flex;
+    
+   
+}
+/* итог */
+.start{
+   
+    color: white;
+    background-color: rgb(24, 24, 10);
+}
+
+.glavni{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.handred hr{
+    padding: 20px;
+    background-color: mediumorchid;
+    border: none;
+    margin-bottom: 20px;
+
+}
+.tez-tez{
+    margin-top: 100px;
+}
+body{
+    background-color: rgb(24, 24, 10); ;
+}
+   
+.tez{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.seven hr{
+    padding: 15px;
+    background-color: mediumorchid;
+    border: none;
+    margin-bottom: 20px;
+
+
+}
+.dolor{
+    margin-bottom: 20px; 
+}
+.fifty hr{
+    padding: 10px;
+    background-color: mediumorchid;
+    border: none;
+    margin-bottom: 20px;
+
+}
+.itog hr{
+    padding: 5px;
+    background-color: mediumorchid;
+    border: none;
+    margin-bottom: 20px;
+
+}
+/* work */
+.about{
+    text-align: center;
+    margin-top: 100px   ;
+    color: white;
+}
+.work{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.work1{
+    width: 27%;
+    margin-top: 50px;
+}
+/* partner */
+
+.partner{
+    margin-top: 100px;
+    color: white;
+    
+}
+.ppp{
+    text-align: center;
+    margin-bottom: 50px ;
+}
+.part1{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+/* programma */
+.programma{
+    color: white;
+}
+.top-right{
+    width: 50%;
+    margin-top: 50px;
+
+}
+.l123{
+    margin: 30px 0px;
+}
+.top-left{
+    width: 50%;
+}
+.top1{
+    line-height: 50px;
+}
+.top1 h4{
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 300;
+}
+.obucheniya{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.top-123{
+    display: flex;
+    margin-bottom: 100px;
+}
+.divhr{
+    text-align: center;
+    border: 5px solid white;
+    margin-right: 50px;
+}
+.top-right{
+    margin-top: 120px;
+}
+/* teachers */
+.techer{
+    color: white;
+    margin-top: 100px;
+}
+.teachers{
+    display: flex;
+
+
+}
+.divbar{
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+.barbabar{
+    line-height: 35px;
+    
+}
+.barbabar img{
+    text-align: center;
+
+}
+.jizn{
+    padding: 8px 10px;
+    border-radius: 15%;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgb(234, 16, 16);
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px ;
+    background-color: black;
+    background-color:blueviolet;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.jizn:hover{
+   background-color: rgb(103, 92, 92);
+
+}
+.teeecherss{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+/* week */
+.week1{
+    text-align: center;
+}
+.polni{
+    line-height: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.week{
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.email{
+    border-radius: 15%;
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgb(234, 16, 16);
+    font-size: 15px;
+    padding: 5px 0px ;
+    background-color:rgb(105, 99, 99);
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: start;
+}
+.divflex{
+    border: 1px solid rgb(234, 16, 16);
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px ;
+    background-color: black;
+    background-color:rgb(161, 152, 169);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.endd{
+    border: 1px solid rgb(234, 16, 16);
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px ;
+    background-color:rgb(44, 39, 48);
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: end;
+}
+.endd:hover{
+   background-color: rgb(103, 92, 92);
+}
+.email{
+    width: 50%;
+    margin-left: 200px  ;
+}
+.divflex{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 50%;
+}
+/* sotset */
+.sotset{
+    display: flex;
+    color: white;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 100px;
+    
+}
+.brands ul li i{
+    /* border: 5px solid mediumorchid; */
+    background-color: blueviolet;
+}
+.brands ul li{
+   list-style: none;
+}
+.brands ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
